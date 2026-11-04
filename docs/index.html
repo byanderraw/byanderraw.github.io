@@ -1,174 +1,173 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple Minimalist Linktree Page" />
 
+    <!-- Page Title -->
     <title>Adrian Alexander Salgado | Links & Social Media</title>
-    
-    <meta name="google-site-verification" content="f8cP2SOhj_53XWQCui4jJ6o5JgGNStZPD5MMw-IcDt0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Optional favicon -->
 
     <!--SEO-->
-    <meta name="description" content="Página oficial de Adrian Alexander Salgado. Encuentra mis redes sociales y proyectos / Official bio link of Adrian Alexander Salgado. Find my social media and projects.">
-
-
-    <meta property="og:title" content="Adrian Alexander Salgado">
-    <meta property="og:description" content="My official links and social media.">
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/79281929?v=4">
-
-    <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
+    <meta
+      name="description"
+      content="Página oficial de Adrian Alexander Salgado. Encuentra mis redes sociales y proyectos / Official bio link of Adrian Alexander Salgado. Find my social media and projects."
     />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://byanderraw.github.io" />
+
+    <!-- Author Information -->
+    <meta name="author" content="Adrian Alexander Salgado" />
+
+    <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#121212"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Adrian Alexander Salgado" />
+    <meta
+      property="og:description"
+      content="My official links and social media."
+    />
+    <meta property="og:url" content="https://byanderraw.github.io" />
+    <meta
+      property="og:image"
+      content="https://avatars.githubusercontent.com/u/79281929?v=4"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="stylesheet" href="assets/skeleton-auto.css" />
+    <link rel="stylesheet" href="assets/shared.button.css" />
+    <link rel="stylesheet" href="assets/animation.css" />
+    <link rel="stylesheet" href="assets/brands.css" />
   </head>
-
   <body>
+    <div class="background background-animated" aria-hidden="true"></div>
     <div class="container">
-      <div class="col-xs-12">
-        <div
-          class="text-center"
-          style="padding-top: 30px; padding-bottom: 30px"
-        >
-          <img class="backdrop linktree" />
-          <h2 style="color: #ffffff; padding-top: 20px">
-            Adrian Alexander Salgado
-          </h2>
-          <p>Frontend Developer & Creative Coder.</p>
-        </div>
+      <div class="column">
+        <main>
+          <img
+            src="https://avatars.githubusercontent.com/u/79281929?v=4"
+            alt="Adrian Alexander Salgado's Profile Picture"
+            class="rounded-avatar avatar-img profile-entrance"
+          />
+
+          <div class="profile-entrance">
+            <h1>Adrian Alexander Salgado</h1>
+            <span>@byanderraw</span>
+            <p>Frontend Developer & Creative Coder.</p>
+          </div>
+
+          <div class="social-icon-div">
+            <a
+              href="https://www.instagram.com/byanderraw/"
+              class="button-hover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-instagram social-icon only-icon fadein"
+              ></i>
+            </a>
+            <a
+              href="https://x.com/byanderraw"
+              class="button-hover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-x-twitter social-icon only-icon fadein"
+              ></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/byanderraw/"
+              class="button-hover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin social-icon only-icon fadein"></i>
+            </a>
+            <a
+              href="https://github.com/byanderraw"
+              class="button-hover"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github social-icon only-icon fadein"></i>
+            </a>
+          </div>
+
+          <nav class="button-stack" aria-label="Links">
+            <a
+              href="https://www.behance.net/byanderraw"
+              class="button button-hover button-entrance shake"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-behance social-icon"></i> Check my visual
+              work</a
+            >
+            <a
+              href="#Portfolio"
+              class="button button-hover button-entrance"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-solid fa-envelope social-icon"></i> Send me an
+              email</a
+            >
+            <!-- <a
+              href="#Portfolio"
+              class="button button-hover button-entrance"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-solid fa-briefcase social-icon"></i> Portfolio</a
+            >
+            <a
+              href="#Aboutme"
+              class="button button-hover button-entrance"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i
+                class="fa-solid fa-arrow-up-right-from-square social-icon"
+              ></i>
+              Who Adrian Alexander is</a
+            >
+            <a
+              href="#Blog"
+              class="button button-hover button-entrance"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-medium social-icon"></i> Personal Blog</a
+            > -->
+            <p class="profile-entrance">Inspiration & New Media Art</p>
+
+            <a
+              href="https://pinterest.com/byanderraw/_saved/"
+              class="button button-hover button-entrance"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-pinterest-p social-icon"></i> Inspiration
+              Gallery</a
+            >
+          </nav>
+        </main>
       </div>
     </div>
-
-    <div class="container">
-      <div class="col-xs-12">
-        <div class="text-center">
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="location.href = 'https://www.instagram.com/byanderraw/'"
-              type="button"
-              class="btn btn-outline-light"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 600;
-              "
-            >
-              Visit me on Instagram
-            </button>
-          </div>
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="location.href = 'https://x.com/byanderraw'"
-              type="button"
-              class="btn btn-outline-light"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 600;
-              "
-            >
-              Visit me on X
-            </button>
-          </div>
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="
-                location.href = 'https://www.linkedin.com/in/byanderraw/'
-              "
-              type="button"
-              class="btn btn-outline-light shake"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 800;
-              "
-            >
-              Connect on my LinkedIn profile
-            </button>
-          </div>
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="
-                location.href = 'https://www.github.com/byanderraw/'
-              "
-              type="button"
-              class="btn btn-outline-light"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 600;
-              "
-            >
-            GitHub
-            </button>
-          </div>
-          <div style="padding-bottom: 30px">Other networks</div>
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="location.href = 'https://pinterest.com/byanderraw/'"
-              type="button"
-              class="btn btn-outline-light"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 600;
-              "
-            >
-              Pinterest
-            </button>
-          </div>
-          <div style="padding-bottom: 30px">
-            <button
-              onclick="location.href = 'https://www.behance.net/byanderraw'"
-              type="button"
-              class="btn btn-outline-light"
-              style="
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-weight: 600;
-              "
-            >
-              Behance
-            </button>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center">
-      <a
-        href="https://codepen.io/nightcl4w/pen/dEjreJ"
-        style="color: #34312f"
-        target="_blank"
-        >Powered by OrderMerch</a
-      >
-    </div>
-
+    <script src="script.js"></script>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://kit.fontawesome.com/991b3b8653.js"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
   </body>
 </html>

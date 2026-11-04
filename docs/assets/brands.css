@@ -1,0 +1,169 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Rounded user avatars
+- Buttons
+- Brand Styles
+
+*/
+
+
+/* Rounded avatars
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.rounded-avatar {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 3px var(--button-background-color); 
+  box-shadow: 6px 4px 0px 5px #000000 !important;
+  background-color: var(--button-background-color) !important;
+  width: var(--image-width);
+  height: var(--image-height);
+
+  position: relative;
+  right: 6px;
+  bottom: 4px;
+}
+
+.avatar-img {
+  /* Sube el contraste para que las líneas doradas/amarillas resalten */
+  filter: sepia(25%) contrast(85%) brightness(115%) hue-rotate(-10deg);
+  
+  transition: filter 0.3s ease;
+}
+
+/* Tip interactivo: efecto al pasar el cursor */
+.avatar-img:hover {
+  filter: sepia(25%) contrast(90%) brightness(100%) hue-rotate(-10deg);
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%
+  }
+
+  50% {
+    background-position: 100% 19%
+  }
+
+  100% {
+    background-position: 0% 82%
+  }
+}
+
+
+.social-icon {
+  font-size: 32px;
+  padding: 10px 2px;
+}
+
+.social-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.social-icon {
+  color: #000;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.5em;
+  text-decoration: none;  
+  font-size: 1em;
+  color: var(--button-text-color);
+  min-height: 58px;
+  line-height: 58px;
+  cursor: pointer;
+  
+  background-color: var(--button-background-color);
+  width: 100%;
+  max-width: 600px;
+  border-radius: 14px;
+  margin-bottom: 20px !important;
+  font-weight: 350;
+  letter-spacing: 0.2rem;
+
+  border: 1px solid black;
+  box-shadow: 6px 4px 0px 5px #000000 !important;
+
+  position: relative;
+  right: 6px;
+  bottom: 4px;
+}
+
+.button .social-icon {
+  font-size: 25px;
+  padding: 15px 2px;
+  color: var(--button-text-color);
+}
+
+.button {
+  transition-duration: 0.3s;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(3, 218, 198, 30%);
+}
+
+.button:hover {
+  box-shadow: 0 0 6px rgba(3, 218, 198, 30%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  width: 45px;
+  height: 45px;
+}
+
+svg {
+  color: white;
+}

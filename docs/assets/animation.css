@@ -1,0 +1,129 @@
+/* ************************************************************* */
+/* 
+/* Use this file to add custom CSS animations.
+/* Delete this file if you wish to use the default animations.
+/* If you do not want to have animations in your theme,
+/* remove or comment them and include this file in your theme.
+/* 
+/* ************************************************************* */
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Entrance animations
+- Button hover animations
+- Icon hover animations
+- Footer hover animations
+
+*/
+
+/* Entrance animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button-entrance {
+    animation-name: popUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: calc(var(--delay)/10);
+  }
+
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+} 
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+  }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.shake {
+	animation: shake-animation 3s ease infinite;
+	transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+	0% { transform:translate(0,0) }
+	1.78571% { transform:translate(5px,0) }
+	3.57143% { transform:translate(0,0) }
+	5.35714% { transform:translate(5px,0) }
+	7.14286% { transform:translate(0,0) }
+	8.92857% { transform:translate(5px,0) }
+	10.71429% { transform:translate(0,0) }
+	100% { transform:translate(0,0) }
+}
+
+
+/* Button hover animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* (Also apply to icon) */
+
+.button-hover, .credit-hover{
+    display:inline-block;
+    -webkit-transform:perspective(1px) translateZ(0);
+    transform:perspective(1px) translateZ(0);
+    box-shadow:0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration:.1s;
+    transition-duration:.1s;
+    -webkit-transition-property:transform;
+    transition-property:transform
+}
+.button-hover:active,
+.button-hover:focus, 
+.button-hover:hover{
+    -webkit-transform:scale(1.02);
+    transform:scale(1.02)
+}
+
+.button-hover:active:has(.only-icon),
+.button-hover:focus:has(.only-icon), 
+.button-hover:hover:has(.only-icon) {
+    -webkit-transform:scale(1.50);
+    transform:scale(1.50)
+
+}
+.credit-hover:active, 
+.credit-hover:focus, 
+.credit-hover:hover{
+    -webkit-transform:scale(1.04);
+    transform:scale(1.04)
+}
+
+
+/* Footer hover animations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer-hover{
+    color: black;
+    display:inline-block;
+    -webkit-transform:perspective(1px) translateZ(0);
+    transform:perspective(1px) translateZ(0);
+    box-shadow:0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration:.3s;
+    transition-duration:.3s;
+    -webkit-transition-property:transform;
+    transition-property:transform;
+    -webkit-transition-timing-function:ease-out;
+    transition-timing-function:ease-out
+}
+.footer-hover:active,.footer-hover:focus,.footer-hover:hover{
+    -webkit-transform:translateY(-8px);
+    transform:translateY(-8px)
+}
