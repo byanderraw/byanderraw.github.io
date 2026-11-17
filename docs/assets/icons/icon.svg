@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+   <linearGradient id="gradient" gradientUnits="objectBoundingBox"
+    x1="19%" y1="11%" x2="81%" y2="89%">
+    <stop offset="0%" stop-color="#ec0948" stop-opacity="1"/>
+    <stop offset="33.33333333333333%" stop-color="#f15776" stop-opacity="1"/>
+    <stop offset="66.66666666666666%" stop-color="#f082a6" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#e8a8d9" stop-opacity="1"/>
+   </linearGradient>
+  <path fill="url(#gradient)" d="M35.3,-56.4C46.1,-54.9,55.4,-46.1,62.5,-35.5C69.5,-24.9,74.3,-12.5,69.2,-3C64,6.5,48.9,13,39.8,20.2C30.8,27.3,27.8,35.2,22.2,46.6C16.6,58,8.3,73,0.6,72.1C-7.2,71.1,-14.3,54.2,-22.5,44.2C-30.6,34.2,-39.7,31.2,-43.3,25C-46.9,18.8,-45.1,9.4,-51.4,-3.6C-57.6,-16.7,-72.1,-33.3,-67.3,-37.5C-62.6,-41.8,-38.6,-33.6,-24.2,-33C-9.8,-32.4,-4。9,-39。5,3。7,-45。9C12。2,-52。3,24。5,-58,35。3,-56。4Z" transform="translate(100 100)" />
+</svg>
